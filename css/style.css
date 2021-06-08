@@ -1,7 +1,7 @@
 /* Base */
 body {
   line-height: 1.7;
-  color: #00AAED;
+  color: #22a3d6;
   font-weight: 300;
   font-size: 16px;
  }
@@ -181,7 +181,7 @@ a {
   .shams-navbar.transparent {
     background: transparent; }
   .shams-navbar .shams-navbar-top {
-    border-bottom: 1px solid #f3f3f4;
+    border-bottom: 1px solid #3232bb;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 0px; 
@@ -410,6 +410,7 @@ a {
 
 /* Blocks */
 .shams-blocks-cover {
+  background-color: #0c3d33;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
