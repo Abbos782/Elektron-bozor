@@ -99,7 +99,7 @@
 }
 .ui-button,
 .ui-button:link,
-.ui-button:visited,
+.ui-button:vishamsd,
 .ui-button:hover,
 .ui-button:active {
 	text-decoration: none;
@@ -302,7 +302,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-state-default a,
 .ui-state-default a:link,
-.ui-state-default a:visited {
+.ui-state-default a:vishamsd {
 	color: #2e6e9e;
 	text-decoration: none;
 }
@@ -320,11 +320,11 @@ button.ui-button::-moz-focus-inner {
 .ui-state-hover a,
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
-.ui-state-hover a:visited,
+.ui-state-hover a:vishamsd,
 .ui-state-focus a,
 .ui-state-focus a:hover,
 .ui-state-focus a:link,
-.ui-state-focus a:visited {
+.ui-state-focus a:vishamsd {
 	color: #1d5987;
 	text-decoration: none;
 }
@@ -338,7 +338,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-state-active a,
 .ui-state-active a:link,
-.ui-state-active a:visited {
+.ui-state-active a:vishamsd {
 	color: #e17009;
 	text-decoration: none;
 }
