@@ -809,4 +809,7 @@ a {
 .block-4 a:hover{
   color:#fff;
 } 
+.shams-logo a{
+  width: 10% !important;
+}
 /* own style */
