@@ -628,8 +628,20 @@ a {
     text-align: center;
     vertical-align: middle;
     color: #212529; }
+    .sham_color span{
+      width: 300px;
+      height: 100px;
+      border-radius: 50%;
+      border:2px solid rgb(139, 42, 42);
+    }
   .shams-blocks-table tbody tr:first-child td {
     border-top: 1px solid #7971ea !important; }
+    /* .suma{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      color: #3232bb;
+    } */
 
 .shams-block-order-table th {
   border-top: none !important;
