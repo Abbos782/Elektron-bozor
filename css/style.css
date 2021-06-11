@@ -28,8 +28,10 @@ a,h1,h2,h3,h4,h5,h6,p,i{
   color:#00AAED;
 }
 .shams_color{
-  background-color: #00AAED;
+  background-color: 
+  #FE9E24;
   color:white;
+  border-radius: 12px;
 }
 .btn-outline-info{
   border: 1px solid #00AAED;
@@ -120,7 +122,9 @@ a {
 .shams-section {
   padding: 2.5em 0;
  }
- 
+ .shams-section h2{
+    color: #000;
+ }
   .shams-section.shams-section-sm {
     padding: 4em 0; }
 
@@ -240,7 +244,7 @@ a {
     top: 2px;
     margin-left: 20px; }
   .shams-navbar .shams-navigation.border-bottom {
-    border-bottom: 1px solid #f3f3f4 !important; }
+    border-bottom: 1px solid #212185 !important; }
   .shams-navbar .shams-navigation .shams-menu {
     margin-bottom: 0; 
   }
@@ -258,8 +262,9 @@ a {
         padding: 10px 10px;
         text-transform: uppercase;
         letter-spacing: .05em;
-        color: #25262a;
-        font-size: 12px;
+        color: #FFFFFF;
+        font-size: 16px;
+
         text-decoration: none !important; 
       }
         .shams-navbar .shams-navigation .shams-menu > li > a:hover {
@@ -407,10 +412,14 @@ a {
               .shams-mobile-menu .shams-nav-wrap > li > ul > li > ul > li > a {
                 font-size: 16px;
                 padding-left: 60px; }
+                .shams-section-heading h2{
+                  color: #000;
+                 
+                }
 
 /* Blocks */
 .shams-blocks-cover {
-  background-color: #0c3d33;
+  background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -420,12 +429,12 @@ a {
   .shams-blocks-cover h1 {
     font-size: 30px;
     font-weight: 900;
-    color: #000; }
+    color: #333333; }
     @media (min-width: 768px) {
       .shams-blocks-cover h1 {
         font-size: 50px; } }
   .shams-blocks-cover p {
-    color: #333333;
+    color: #999999;
     font-size: 20px;
     line-height: 35px; }
   .shams-blocks-cover .intro-text {
@@ -470,7 +479,7 @@ a {
     left: 0;
     background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+    /* background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))); */
     background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
@@ -528,7 +537,9 @@ a {
 .block-4 {
   -webkit-box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.1);
-  background: #fff; }
+  background: #fff;
+   
+ }
   .block-4 .block-4-text h3 {
     font-size: 20px;
     margin-bottom: 0; }
@@ -540,6 +551,8 @@ a {
   padding: 0;
   margin: 0;
   line-height: 1.5; }
+  
+  
 
 .block-5 ul li {
   padding-left: 30px;
@@ -732,6 +745,12 @@ a {
     
     
 }
+.text>h1{
+  color: #25262A !important;
+}
+.tesx p{
+  color: #FF8F00 !important;
+}
 
 .brand_model{
   position: absolute;
@@ -739,8 +758,10 @@ a {
   right:0;
 }
 .brand_model p{
-  color: #000;
+  color: #fff;
   margin-bottom: 0;
+  font-weight: 500;
+  font-size: 16px;
 }
 .brand_model .title{
    font-weight: bold;
@@ -794,6 +815,9 @@ a {
 }
 .block-4-image{
   margin:0;
+  /* background-image: url('../images/Rectangle.png');
+  width: 100%;
+  height: 100%; */
 }
 .brand_model, .block-4-text {
   font-size:12px;
@@ -812,4 +836,9 @@ a {
 .shams-logo a{
   width: 10% !important;
 }
+
+
+.shams-navigation{
+  border: none;
+  background-color: #FE9E24;}
 /* own style */
